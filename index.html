@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LifeVault AI — Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #070b15;
+      --ink: #f4f7ff;
+      --ink-soft: rgba(235, 241, 255, 0.74);
+      --line: rgba(148, 168, 220, 0.16);
+      --blue: #3b82f6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.7;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+    h1 { letter-spacing: -0.02em; }
+    h1 span {
+      background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    h2 { margin-top: 40px; font-size: 20px; letter-spacing: -0.01em; }
+    p, li { color: var(--ink-soft); font-size: 15.5px; }
+    .card {
+      background: rgba(140, 165, 230, 0.07);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px 22px;
+      margin: 24px 0;
+    }
+    .card strong { color: var(--ink); }
+    a { color: var(--blue); }
+    .muted { color: rgba(228, 236, 255, 0.45); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Privacy Policy — <span>LifeVault AI</span></h1>
+    <p class="muted">Effective date: June 11, 2026</p>
+
+    <div class="card">
+      <p><strong>The short version:</strong> LifeVault AI is a local-first app. Your inventory,
+      receipts, documents, vehicles, subscriptions and reminders are stored only on your own
+      device. We operate no servers for your data, require no account, and collect nothing.</p>
+    </div>
+
+    <h2>1. Data storage</h2>
+    <p>All app data lives in a private database on your device. It is never transmitted to the
+    developer and we have no ability to access it. Deleting the app (or using
+    Settings&nbsp;→&nbsp;Erase all data) permanently removes it.</p>
+
+    <h2>2. Encryption</h2>
+    <p>If you set a vault passcode, document files you store are encrypted on your device with
+    AES-256-GCM. The encryption key is derived from your passcode and exists only in your
+    device's memory while the vault is unlocked. It is never stored or transmitted.
+    <strong>If you forget your passcode, encrypted documents cannot be recovered by anyone,
+    including us.</strong></p>
+
+    <h2>3. Optional AI features</h2>
+    <p>When AI features (receipt scanning, item identification, the assistant) are available and
+    you actively use them, the specific photo or data snapshot you submit is sent to an AI
+    provider (Anthropic's Claude API) solely to produce the result you requested. Under
+    Anthropic's API terms, this data is not used to train AI models. The developer does not
+    receive, log or store any of it. If AI features are disabled or offline, nothing is ever
+    transmitted.</p>
+
+    <h2>4. Optional weather widget</h2>
+    <p>If you grant location permission for the dashboard weather widget, your approximate
+    coordinates are sent to the Open-Meteo weather service to fetch the forecast. No account or
+    identifier accompanies the request. Decline the permission and no location data is used.</p>
+
+    <h2>5. Backups</h2>
+    <p>Backup files you export are created locally and remain entirely under your control. Treat
+    backups that include encrypted files carefully — they contain the material needed to attempt
+    passcode guessing offline.</p>
+
+    <h2>6. What we don't do</h2>
+    <ul>
+      <li>No analytics, telemetry or crash reporting</li>
+      <li>No advertising or ad SDKs</li>
+      <li>No selling, sharing or transferring of data — we never possess it</li>
+      <li>No accounts, emails or identifiers required</li>
+    </ul>
+
+    <h2>7. Permissions</h2>
+    <p>Camera/photos are used only when you choose to attach an image. Biometric hardware is used
+    only to unlock the app on your device. Location is used only for the optional weather widget.</p>
+
+    <h2>8. Children</h2>
+    <p>LifeVault AI is a general-audience productivity app and is not directed at children under 13.</p>
+
+    <h2>9. Changes &amp; contact</h2>
+    <p>Changes to this policy will be posted at this address with an updated effective date.
+    Questions: open an issue at
+    <a href="https://github.com/sammy14258boss-tech">github.com/sammy14258boss-tech</a>.</p>
+  </div>
+</body>
+</html>

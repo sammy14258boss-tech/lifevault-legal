@@ -40,10 +40,20 @@
     .card strong { color: var(--ink); }
     a { color: var(--blue); }
     .muted { color: rgba(228, 236, 255, 0.45); font-size: 13px; }
+    .nav { display: flex; gap: 18px; font-size: 14px; margin-bottom: 28px; }
+    .nav a { color: var(--ink-soft); text-decoration: none; }
+    .nav a.active { color: var(--ink); font-weight: 600; }
+    .nav a:hover { color: var(--ink); }
+    h2 { scroll-margin-top: 24px; }
   </style>
 </head>
 <body>
   <div class="wrap">
+    <nav class="nav">
+      <a href="./" class="active">Privacy Policy</a>
+      <a href="./terms.html">Terms of Use</a>
+    </nav>
+
     <h1>Privacy Policy — <span>LifeVault AI</span></h1>
     <p class="muted">Effective date: July 9, 2026</p>
 
@@ -65,7 +75,7 @@
     <strong>If you forget your passcode, encrypted documents cannot be recovered by anyone,
     including us.</strong></p>
 
-    <h2>3. Optional AI features</h2>
+    <h2 id="ai">3. Optional AI features</h2>
     <p>When AI features (receipt scanning, item identification, the assistant) are available and
     you actively use them, the specific photo or data snapshot you submit is sent to an AI
     provider (Anthropic's Claude API) solely to produce the result you requested. Under
@@ -102,6 +112,9 @@
     <p>LifeVault AI is a general-audience productivity app and is not directed at children under 13.</p>
 
     <h2>8. Changes &amp; contact</h2>
+    <p>Use of the app is also subject to our <a href="./terms.html">Terms of Use</a>, which
+    explain, among other things, that the app's summaries and tax-related guidance are general
+    information and not professional advice.</p>
     <p>Changes to this policy will be posted at this address with an updated effective date.
     Questions: email <a href="mailto:Evercore.Digitalverse@gmail.com">Evercore.Digitalverse@gmail.com</a> or open
     an issue at <a href="https://github.com/sammy14258boss-tech">github.com/sammy14258boss-tech</a>.</p>
